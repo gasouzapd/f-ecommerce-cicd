@@ -3,8 +3,10 @@ POST http://localhost:7071/api/Products
 {
     "product":{
         "Id": "e77344a9-1e81-4362-afca-520a5bd826f8",
-        "Reference": "abc",
-        "Desc": "Produto Novo",
-        "Price": 12
+        "Reference": "CAMS01",
+        "Desc": "Camiseta Social",
+        "Category": "Camisetas",
+        "Quantidade": 15,
+        "Price": 12.50
     }
 }
