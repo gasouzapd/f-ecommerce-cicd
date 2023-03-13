@@ -16,7 +16,7 @@ namespace MyEcommerce.Products
         }
 
         [Function("Products")]
-        public ProductBindings Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", "put", "delete")] HttpRequestData req, ProductDTO product)
+        public ProductBindings Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", "put", "delete ")] HttpRequestData req, ProductDTO product)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
 

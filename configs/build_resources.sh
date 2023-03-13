@@ -5,10 +5,7 @@ set -e
 TENANT="c13cb701-a52e-44b3-a906-3c5512a900aa"
 SUBSCRIPTION="628d09fe-3d8e-4b0b-b266-b5b4116884e1"
 LOCATION="westeurope"
-
 RESOURCEGROUP="ecommercegpd"
-STORAGEACCOUNTNAME="ecommerceaccursogpd"
-APPNAME="ecommerceappcursogpd"
 
 do_login()
 {
@@ -37,7 +34,7 @@ do_function_app()
     --name CheckoutFunctionApp \
     --resource-group $RESOURCEGROUP \
     --template-file azuredeploy.json \
-    --parameters appName=$APPNAME storageAccountName=$STORAGEACCOUNTNAME \
+    --parameters azuredeploy.parameters.json \
     --verbose
     echo "End function App"
 }
