@@ -2,10 +2,10 @@
 # exit when any command fails
 set -e
 
-TENANT="c13cb701-a52e-44b3-a906-3c5512a900aa"
-SUBSCRIPTION="628d09fe-3d8e-4b0b-b266-b5b4116884e1"
+TENANT="9ca31f09-77b5-4af1-b805-503fb3013f7e"
+SUBSCRIPTION="8561c07f-06d7-47b5-8f1f-565c7c802da9"
 LOCATION="westeurope"
-RESOURCEGROUP="ecommercegpd"
+RESOURCEGROUP="estudos"
 
 do_login()
 {
