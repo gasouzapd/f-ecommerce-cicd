@@ -9,7 +9,7 @@ on:
   pull_request:
    branches: [ main ]
   workflow_dispatch:
-  
+
 env:
   AZURE_FUNCTIONAPP_NAME: ecommerceappcursogpdev  # set this to the name of your azure function app resource
   AZURE_FUNCTION_PROJ_PATH: src/  # set this to the path to your function app project
