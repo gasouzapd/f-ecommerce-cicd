@@ -2,7 +2,7 @@
 # exit when any command fails
 set -e
 
-APPNAME="ecommerceappcursogpd"
+APPNAME="ecommerceappcursogpdev"
 
 cd ../src
 func azure functionapp publish $APPNAME
