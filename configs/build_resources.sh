@@ -7,6 +7,7 @@ SUBSCRIPTION="8561c07f-06d7-47b5-8f1f-565c7c802da9"
 LOCATION="westeurope"
 RESOURCEGROUP="estudos"
 
+
 do_login()
 {
     echo "Start Login"
